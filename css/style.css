@@ -223,6 +223,7 @@ a:hover {
 
 .socials {
   padding: 1.5rem 0;
+
 }
 
 .socials ul li {
@@ -235,7 +236,8 @@ a:hover {
   font-size: 1.7rem;
   border-radius: 50%;
   line-height: 1.4;
-  margin: 0 15px 0 0;
+  margin-top: 1rem;
+  margin-left: 1rem;
   box-shadow: 0 0 0 3px #1B1B1B;
   color: #1B1B1B;
   transition: all 500ms ease;
@@ -646,6 +648,7 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.4);
   transition-delay: all 2s;
   border-radius: 10px;
+  color: #fff !important;
 
 }
 .work-box:hover img {
@@ -686,15 +689,22 @@ a:hover {
 }
 
 .work-content .w-like a {
-  color: white;
+  color: #1e1e1e;
 }
 
+.work-content .w-like a:hover {
+  color: #fff !important;
+}
 .work-content .w-like .num-like {
   font-size: .7rem;
 }
 
 .w-title {
   font-size: 1.2rem;
+  color: #1e1e1e;
+}
+.w-title:hover{
+  color: #f5f5f5 !important;
 }
 
 /*======================================
