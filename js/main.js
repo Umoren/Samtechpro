@@ -9,14 +9,11 @@
     }
   })
 
-  // Preloader
-  $(window).on('load', function () {
-    if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('slow', function () {
-        $(this).remove();
-      });
-    }
-  });
+  //CSS ANIMATION
+
+	$('a').click(function(){
+		$('a').addClass('animated rubberBand')
+	});
 
   // Back to top button
   $(window).scroll(function() {
