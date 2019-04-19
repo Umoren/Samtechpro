@@ -98,17 +98,14 @@
 		});
 	}
 
-	/*--/ Testimonials owl /--*/
-	$('#testimonial-mf').owlCarousel({
-		margin: 20,
-		autoplay: true,
-		autoplayTimeout: 4000,
-		autoplayHoverPause: true,
-		responsive: {
-			0: {
-				items: 1,
-			}
-		}
-	});
+	if ('serviceWorker' in navigator){
+		window.addEventListener('load', ()=>{
+			navigator.serviceWorker.register('../sw.js').then( ()=>{
+				console.log('Service Worker Registered');
+			})
+		})
+	}
+
+	
 
 })(jQuery);
