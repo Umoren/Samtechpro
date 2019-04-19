@@ -4,8 +4,9 @@
 body {
   background-color: #1B1B1B;
   color: white;
-  font-family: 'Roboto Mono', monospace !important;
+  font-family: 'Roboto', sans-serif !important;
   overflow-x: hidden;
+  font-weight: 500;
 }
 
 h1,
@@ -56,9 +57,9 @@ a:hover {
 }
 
 a.bord{
-  background-color: white;
-  color: black !important;
-  border: 2px solid #888;
+  background-color: transparent;
+  color: lightcoral !important;
+  /* border: 2px solid #888; */
   box-shadow: 0 18px 8px -10px  #888 ;
   border-radius: 4px;
 }
